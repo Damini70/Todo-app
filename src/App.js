@@ -26,7 +26,7 @@ const dispatch=useDispatch()
  <button class="bg-cyan-500 hover:bg-cyan-600 p-2 rounded-full" onClick={dispatch(toggleTheme())}>Theme Switcher</button>
 </div>
 <div className={`${style}`}>
-<div class=" text-center m-4 p-4 justify-evenly">
+<div class="text-center m-4 p-4 justify-evenly">
 <form><input type="text" class="form-input px-4 py-3 rounded-full mb-3 " placeholder='Enter your Task' required/><br/>
 <input type="textarea" class="form-input px-4 py-3 rounded-full mb-3" placeholder='Enter your Description' required/><br/>
 <button class="bg-cyan-500 hover:bg-cyan-600 p-3 rounded-full m-3" >Add</button></form>
